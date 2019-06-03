@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report>
+  <DocPage name="1">
+    <Text font="David" size="21.5" bold="false" italic="false" underline="false" alignment="center">נומרולוגיית הצ'אקרות הקלאסית עבור:
+_שם_ _שם_משפחה_</Text>
+    <Image>_ראשי_</Image>
+	<Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right"> </Text>
+  </DocPage>
+  <DocPage name="2">
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right">
+	האדם הגיע לעולם עם ייעוד ותיקון.
+
+ייעודך: _ערך_ייעוד_
+
+התיקון יפורט בהמשך.
+
+צ'אקרת הגרון מאפיינת את יכולת חשיבתך ושאיפותיך:
+_צאקרה_3_</Text>
+  </DocPage>
+  <DocPage name="3">
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right">קישורי התעסוקה שלך מורכבים מיכולת עיקרית ויכולת משנית:
+
+א. יכולות התעסוקה העיקרית הגלומה בצ'אקרת המין והיצירה, מאפיינת את יכולתך לעסוק : _תעסוקה_ראשי_
+
+ב. יכולות התעסוקה המשנית הגלומה במזל האסטרולוגי שלך, מאפיינת את יכולתך לעסוק : _תעסוקה_משני_
+
+ג. יכולות התעסוקה המשנית הגלומה בשמך הפרטי, מאפיינת את יכולתך לעסוק : _תעסוקה_שם_פרטי_</Text>
+  </DocPage>
+  <DocPage name="4">
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right">שלושה דברים יאפשרו לך לצאת מכל משבר:
+
+א. מומלץ לך לפעול בהתאם לאיכויות צ'אקרת הבסיס, אשר יקדמו ויוציאו אותך מהמשבר: _משבר_בסיס_
+
+ב. מומלץ לך לפעול בהתאם לאיכויות צ'אקרת הלב, אשר יקדמו ויוציאו אותך מהמשבר: _משבר_לב_
+
+ג. מומלץ לך לפעול בהתאם לאיכויות שמך הפרטי, אשר יקדמו ויוציאו אותך מהמשבר: _משבר_שם_פרטי_
+
+
+מפתך: _ערך_מפה_מאוזן_
+
+_ערך_חשש_ופחד_
+
+_ערך_חרדות_
+
+_ערך_מפה_דיכאוני_</Text>
+  </DocPage>
+  <DocPage name="5">
+    <Text font="David" size="18" bold="false" italic="false" underline="false" alignment="center">מחזורי החיים</Text>
+    <Image>_מחזורי_חיים_</Image>
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right">_מידע_מחזור_ראשון_
+
+_מידע_מחזור_שני_
+
+_מידע_מחזור_שלישי_
+
+_מידע_מחזור_רביעי_
+
+</Text>
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right">כיום הינך בשנה אישית: _מספר_שנה_אישית_ המסתיימת ביום הולדתך הקרוב.
+_ערך_שנה_אישית_</Text>
+  </DocPage>
+  <DocPage name="6">
+    <Text font="David" size="18" bold="false" italic="false" underline="false" alignment="center">התיקון</Text>
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right">להלן המלצותיי לתיקון האישי:
+_ערך_תיקון_ראשי_
+</Text>
+  </DocPage>
+  <DocPage name="7">
+    <Text font="David" size="18" bold="false" italic="false" underline="false" alignment="right">המלצות אישיות</Text>
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="right">הצלחה ושפע לך ולבני משפחתך בכל מעשייך ושאיפותיך.</Text>
+    <Text font="David" size="15" bold="false" italic="false" underline="false" alignment="center">יעקבי נשר-סולן.</Text>
+  </DocPage>
+</Report>

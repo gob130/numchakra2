@@ -1,0 +1,18 @@
+<DB>
+  <User id="1">
+    <FirstName>יעקבי</FirstName>
+    <LastName>נשר-סולן</LastName>
+    <BirthDay>11-11-1958</BirthDay>
+    <FatherName>אבא</FatherName>
+    <MotherName>אמא</MotherName>
+    <City>חולון</City>
+    <Street>רחוב</Street>
+    <Building>1</Building>
+    <Appartment>0</Appartment>
+    <EMail>yaakobi999@gmail.com</EMail>
+    <Phones>052-4694122</Phones>
+    <Sex>Male</Sex>
+    <Application>נומרולוג</Application>
+    <PassedRect>Passed</PassedRect>
+  </User>
+</DB>

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="NumChakra.exe" version="2.5.0.0" publicKeyToken="375500cf1db6c921" language="he-IL" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="CHKR_NUM.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="NumChakra" version="2.5.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="NumChakra.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" ID="Custom" SameSite="site" Unrestricted="true" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="ADODB" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="EnvDTE" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="VsWebSite.Interop" version="8.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="VsWebSite.Interop90" version="9.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BLL.dll" size="63488">
+      <assemblyIdentity name="BLL" version="1.0.0.0" publicKeyToken="F6C0E6F282AB96DA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>nHIudHnPtOgKawBvPnqYkERnABI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ErrorLogger.dll" size="8704">
+      <assemblyIdentity name="ErrorLogger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>AKOqKDgaUdzmmxXa678QtGxGPdw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MSORUNLib.dll" size="57344">
+      <assemblyIdentity name="Interop.MSORUNLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>d8S03R/NM8lhvHd1MCUSxpqUyR0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Interop.Word.dll" size="907120">
+      <assemblyIdentity name="Microsoft.Office.Interop.Word" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>f9sL0U2i8tryK6aQznWfX8GfTe4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NumChakra.exe" size="2125824">
+      <assemblyIdentity name="NumChakra" version="2.5.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>58bm++loxnQQkmlMvONZhZIoM+Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="chakra-tuning.ico" size="419453">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>j8RwHXTHrO1+vjJ8YZz0LgTZRFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CHKR_NUM.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KyguTWe0h6T5PYVnI55WLZhY5aU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Names\ArabFemale.txt" size="2647">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EutKc5iEtX42PKa+jmZqB9DBVs0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Names\ArabMale.txt" size="13607">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mthU67m/Laf7VxRIx7oRC79C5fU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Names\JuishBibleFemale.txt" size="1408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>rQHgRgaS1BPZlFqcL9wkucfOM0E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Names\JuishBibleMale.txt" size="2720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZVbJTuAFeEPUMKfcA6ve171l5hI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Names\JuishFemale.txt" size="9468">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>m4xjKOSaRk+c0VXBjBwaoAThsSo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Names\JuishMale.txt" size="8659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yNrDMYZghDcwmoX7zY8F3NNMYWs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NumChakra.exe.config" size="397">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2SCFpAuaHoRDlwBk34MaW5344rg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="omega2.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>p3ghAj1EAK1J7hMsv31BJ+wDm1g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ProgImages.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ClrkiqLXI7UedL8C24fC/xje6u4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\SexCreation.png" size="291">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ZzDJnCSHxaLDd0Sd9Mi3KJzUgUE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Bar-PC\Bar" issuerKeyHash="496def90b4a92d25a1d1b2aa0b7e68361c7c2fba" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3BKkZsOK3DaDyoRYquOjK4oqRTA=</DigestValue></Reference></SignedInfo><SignatureValue>tU/iYrdYodCrmVcQVe2EO1b5ymktnr9BuCAESyMSpgHrpFUvyhuqhhjdd8Rqv1p/ZQmSf2V7H2lLqXB8QyvdTFxqagxVKSRD/qXZZ04NUNWg1coweRIKmiNDrXwPUdZFoNkG5jbpuEs/3ga/HQzYUK5t5pHxAmU1QITE2AezzDo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4p1vcoljjiaS0t1RvS3sr2msVzL811fXm2F2O3OKNzJGfW35fRnq9U2sa1hnNB+z6w5CdfYJVwgE/ucGSX3UOq05gYjELH+uQ3/Pl7Z8hZn+/JQIjiQ9LEHwgot2uqLmbrcD9CU2yc1yerX7StSUIxiTs8c4R+PSxzjhLpLOmWc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="30452a8a2ba3e3aa5884ca8336dc8ac366a412dc" Description="" Url=""><as:assemblyIdentity name="NumChakra.exe" version="2.5.0.0" publicKeyToken="375500cf1db6c921" language="he-IL" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Bar-PC\Bar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>1ij7015VhQb2IIuGnhEzHuJgTQ0=</DigestValue></Reference></SignedInfo><SignatureValue>fl7sMpCyl/73mZLSmgZ07a7pAhHtvTHHuAnjRoRL/ccwbDj5Fw15jIH4qIgaPtSeANCorcGQML2vMeJGeediu/M+DqwZELMvn/ZpkwfGhhLtTCRzXsYj+UYi/z6AfQHuPs+o87Wlzmd/WL9OyynKAi8t9U4c/Wp9Tq8dFAdmbHA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4p1vcoljjiaS0t1RvS3sr2msVzL811fXm2F2O3OKNzJGfW35fRnq9U2sa1hnNB+z6w5CdfYJVwgE/ucGSX3UOq05gYjELH+uQ3/Pl7Z8hZn+/JQIjiQ9LEHwgot2uqLmbrcD9CU2yc1yerX7StSUIxiTs8c4R+PSxzjhLpLOmWc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQYhZGkTqFoZtHXSgGXmUVCzANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAQgBhAHIALQBQAEMAXABCAGEAcjAeFw0xMjEyMTcxMjE0NDdaFw0xMzEyMTcxODE0NDdaMB8xHTAbBgNVBAMeFABCAGEAcgAtAFAAQwBcAEIAYQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDinW9yiWOOJpLS3VG9LeyvaaxXMvzXV9ebYXY7c4o3MkZ9bfl9Ger1TaxrWGc0H7PrDkJ19glXCAT+5wZJfdQ6rTmBiMQsf65Df8+XtnyFmf78lAiOJD0sQfCCi3a6ouZutwP0JTbJzXJ6tftK1JQjGJOzxzhH49LHOOEuks6ZZwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACBEIfpotsa6/8lY2Qa02hOI5LSotVhEVweK2+DID7oNV3JyJttt3R0kG9mgEA1fUj95ozUUbrCx3ebawOaDWiIDNaKTuuxvyXPesudI6usZZekPbyqfTmrOqMMQqwCKoJroRsZMqtgLOr79e26pTYP255uNFdgize1EHQPyN7nk</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

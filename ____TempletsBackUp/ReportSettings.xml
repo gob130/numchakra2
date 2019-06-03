@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ReportSettings>
+	<ReservedNames>
+		<PrivateName>_שם_</PrivateName>
+		<LastName>_שם_משפחה_</LastName>
+		<BirthDay>_תאריך_לידה_</BirthDay>
+		<FatherName>_שם_אבא_</FatherName>
+		<MotherName>_שם_אמא_</MotherName>
+	</ReservedNames>
+	<ReservedImages>
+		<Pitagors>_פיתגורס_</Pitagors>
+		<SpherePic>_ראשי_</SpherePic>
+		<LifeCycles>_מחזורי_חיים_</LifeCycles>
+	</ReservedImages>
+	<SphereInfo>
+		<Sphere>_ספרה_</Sphere>
+		<SphereInfo>_ספרה_מלל_</SphereInfo>
+	</SphereInfo>
+</ReportSettings>
